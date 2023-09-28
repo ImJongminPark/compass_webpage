@@ -76,7 +76,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/abs/2309.07926" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -131,9 +131,8 @@
 <!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
-        <!-- Your video here -->
-        <!-- <source src="static/videos/banner_video.mp4"
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <source src="static/videos/banner_video.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
@@ -143,6 +142,17 @@
   </div>
 </section> -->
 <!-- End teaser video -->
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/figures/figure1_v34.png" alt="Image Description" style="width: 1000px; height: auto; display: block; margin: 0 auto;">
+      <h2 class="subtitle has-text-left">
+        Visual comparison results of spatially scalable image compression methods for arbitrary scale factors: The image of Layer 2 is reconstructed from the image of Layer 1 with scale factor 2.0× for each method. The ‘acc. bits’ indicates the accumulated bits up to the corresponding layers.
+      </h2>
+    </div>
+  </div>
+</section>
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -166,42 +176,93 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
+      <h2 class="title has-text-left">Visual results for multi-layer scalable coding</h2> <!-- Add your title here -->
+      <h2 class="subtitle has-text-left" style="margin-top: 10px;">
+        Visual results of our COMPASS for multi-layer scalable coding greater than three layers. We consider the total number of layers with three, four, five, six and nine, and compare the PSNR values and accumulated bits in each layer. As shown, our COMPASS shows faithful reconstructions over various layers.
+      </h2>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/figures/multi/multi_07_v3.png" alt="MY ALT TEXT" style="width: 1000px; height: auto; display: block; margin: 0 auto;"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          kodim07.png
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/figures/multi/multi_20_v13.png" alt="MY ALT TEXT" style="width: 1000px; height: auto; display: block; margin: 0 auto;"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          kodim20.png
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title has-text-left">Visual Comparison with a fixed scale factor of 2</h2> <!-- Add your title here -->
+      <h2 class="subtitle has-text-left" style="margin-top: 10px;">
+        Visual comparison results for images in Kodak Lossless True Color Image dataset with a fixed scale factor of 2. The ‘acc. bits’ indicates the accumulated bits up to the final EL. We match the accumulated bits among the compared methods as much as possible. </h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/figures/visual/visual_sup_05_v4.png" alt="MY ALT TEXT" style="width: 1000px; height: auto; display: block; margin: 0 auto;"/>
+        <h2 class="subtitle has-text-centered">
+          kodim05.png
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/figures/visual/visual_sup_08_v11.png" alt="MY ALT TEXT" style="width: 1000px; height: auto; display: block; margin: 0 auto;"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+          kodim08.png
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/figures/visual/visual_sup_13_v9.png" alt="MY ALT TEXT" style="width: 1000px; height: auto; display: block; margin: 0 auto;"/>
+        <h2 class="subtitle has-text-centered">
+          kodim13.png
        </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/figures/visual/visual_sup_14_v4.png" alt="MY ALT TEXT" style="width: 1000px; height: auto; display: block; margin: 0 auto;"/>
+        <h2 class="subtitle has-text-centered">
+          kodim14.png
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/figures/visual/visual_sup_16_v4.png" alt="MY ALT TEXT" style="width: 1000px; height: auto; display: block; margin: 0 auto;"/>
+        <h2 class="subtitle has-text-centered">
+          kodim16.png
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/figures/visual/visual_sup_21_v4.png" alt="MY ALT TEXT" style="width: 1000px; height: auto; display: block; margin: 0 auto;"/>
+        <h2 class="subtitle has-text-centered">
+          kodim21.png
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/figures/visual/visual_sup_24_v4.png" alt="MY ALT TEXT" style="width: 1000px; height: auto; display: block; margin: 0 auto;"/>
+        <h2 class="subtitle has-text-centered">
+          kodim24.png
+        </h2>
+      </div>
   </div>
 </div>
 </div>
 </section>
 <!-- End image carousel -->
-
-
 
 
 <!-- Youtube video -->
@@ -215,7 +276,7 @@
           
           <div class="publication-video">
             <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/watch?v=Zfo3f__suwQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/Zfo3f__suwQ?si=vlZRJeUi0PU1fKPb" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -226,27 +287,27 @@
 
 
 <!-- Video carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Another Carousel</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
+          <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
             <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
+            <!-- <source src="static/videos/carousel1.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
+          <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
             <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
+            <!-- <source src="static/videos/carousel2.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
             <!-- Your video file here -->
             <source src="static/videos/carousel3.mp4"
             type="video/mp4">
@@ -267,9 +328,9 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">Poster</h2>
+      <h2 class="title">ICCV Poster</h2>
 
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+      <iframe  src="static/pdfs/10421_poster.pdf" width="100%" height="550">
           </iframe>
         
       </div>
@@ -282,7 +343,14 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@misc{park2023compass,
+        title={COMPASS: High-Efficiency Deep Image Compression with Arbitrary-scale Spatial Scalability}, 
+        author={Jongmin Park and Jooyoung Lee and Munchurl Kim},
+        year={2023},
+        eprint={2309.07926},
+        archivePrefix={arXiv},
+        primaryClass={eess.IV}
+  }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
